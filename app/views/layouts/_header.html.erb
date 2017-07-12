@@ -1,19 +1,24 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
     <div class="container">
-        <%= link_to "Profolio", root_path, id: "logo" %>
+        <%= link_to "Protfolio", root_path, id: "logo" %>
         <nav>
             <ul class="nav navbar-nav navbar-right ">
                 <li><%= link_to "Home", root_path %></li>
                 <li><%= link_to "Resume", about_path %></li>
                 <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    Sample Works<b class="caret"></b>
-                </a>
-                <ul class="dropdown-menu">
-                    <li class="dropdown-item"><%= link_to "WordPress Website", "http://www.premiconsultants.com/", :target => "_blank" %></li>
-                    <li class="dropdown-item"><%= link_to "Chat App", "http://52.206.106.168:3001", :target => "_blank" %></li>
-                    <li class="dropdown-item"><%= link_to "Questionnaire", "https://info.kalkiconsulting.com/ratemyit", :target => "_blank" %></li>
-                </ul>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Sample Works<b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"><%= link_to "Pi Project", "http://34.205.235.167:3006/", :target => "_blank" %></li>
+                        <li class="dropdown-item"><%= link_to "Chat App", "http://34.205.235.167:3003/", :target => "_blank" %></li>
+                        <li class="dropdown-item"><%= link_to "Blog App", "https://jbanalytical.herokuapp.com/", :target => "_blank" %></li>
+                        <li class="dropdown-item"><%= link_to "Phone Book App", "http://34.205.235.167:3002/", :target => "_blank" %></li>
+                        <li class="dropdown-item"><%= link_to "Content Management System App", "http://34.200.149.58:3004/", :target => "_blank" %></li>
+                        <li class="dropdown-item"><%= link_to "Yelp Comments Monitor App", "https://github.com/ChocolateAceCream/yelp-comments-monitor", :target => "_blank" %></li>
+                        <li class="dropdown-item"><%= link_to "Questionnaire", "https://info.kalkiconsulting.com/ratemyit", :target => "_blank" %></li>
+                        <li class="dropdown-item"><%= link_to "WordPress Website", "http://www.premiconsultants.com/", :target => "_blank" %></li>
+                    </ul>
             </ul>
         </nav>
     </div>
